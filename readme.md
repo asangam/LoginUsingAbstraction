@@ -6,6 +6,6 @@
 
 <img src="img.PNG" alt="image">
 
-<footer>Sangam Adhikari</footer>
+<a href="http://twitter.com/the_asangam" target="_blank" ><footer>Sangam Adhikari</footer> </a>
 
 </body>
