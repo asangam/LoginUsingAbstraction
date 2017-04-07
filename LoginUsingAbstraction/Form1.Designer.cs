@@ -44,7 +44,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtUsername);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(21, 9);
+            this.groupBox1.Location = new System.Drawing.Point(21, 22);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(295, 251);
             this.groupBox1.TabIndex = 0;
@@ -85,7 +85,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(21, 282);
+            this.btnLogin.Location = new System.Drawing.Point(24, 297);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(110, 43);
             this.btnLogin.TabIndex = 1;
@@ -95,7 +95,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(156, 282);
+            this.btnExit.Location = new System.Drawing.Point(159, 297);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(110, 43);
             this.btnExit.TabIndex = 2;
@@ -118,6 +118,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login Form";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
